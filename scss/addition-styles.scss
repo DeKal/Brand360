@@ -1,0 +1,45 @@
+/* IMPORTANT NOTE: Do not have changes on addtion-styles.css
+ * Please use Gulp and change any .scss files in Styles/scss
+=============================================================*/
+
+/**
+ * Global variables
+ */
+
+$mobile : 544px;
+$tablet : 768px;
+$desktop: 992px;
+$large-desktop: 1200px;
+$primary-color: #8d542a;
+$primary-hover-color: #7e4a23;
+
+@font-face {
+  font-family: 'gotham';
+  src: url('../fonts/Gotham-Book.otf');
+}
+
+@font-face {
+  font-family: 'gotham-light';
+  src: url('../fonts/Gotham-Light.otf');
+}
+
+@font-face {
+  font-family: 'gotham-medium';
+  src: url('../fonts/Gotham-Medium.otf');
+}
+
+@import url(//fonts.googleapis.com/css?family=Oswald);
+
+*, body, input, button, select, textarea {
+  outline: none;
+  font-family: 'gotham';
+}
+
+html {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+@import 'layout.scss';
+@import 'header.scss';
+@import 'footer.scss';

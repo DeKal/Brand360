@@ -1,0 +1,99 @@
+@import url(//fonts.googleapis.com/css?family=Oswald);
+
+/* IMPORTANT NOTE: Do not have changes on addtion-styles.css
+ * Please use Gulp and change any .scss files in Styles/scss
+=============================================================*/
+
+/**
+ * Global variables
+ */
+
+@font-face {
+	font-family: 'gotham';
+	src: url('../fonts/Gotham-Book.otf');
+}
+
+@font-face {
+	font-family: 'gotham-light';
+	src: url('../fonts/Gotham-Light.otf');
+}
+
+@font-face {
+	font-family: 'gotham-medium';
+	src: url('../fonts/Gotham-Medium.otf');
+}
+
+*,
+body,
+input,
+button,
+select,
+textarea {
+	font-family: 'gotham';
+	outline: none;
+}
+
+html {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+/**
+ * Layout styling
+ */
+
+/**
+ * Header styling
+ */
+
+header .x-navbar {
+	background-color: #fefefe;
+	background-image: url('../images/header-tail.png');
+	background-repeat: repeat-x;
+	background-position: 0 0;
+}
+
+header .x-navbar .x-container .x-brand {
+	margin-top: -30px;
+	margin-bottom: 15px;
+}
+
+header .x-navbar .x-container nav.x-nav-wrap #menu-main-menu {
+	padding-top: 50px;
+}
+
+header .x-navbar .x-container nav.x-nav-wrap #menu-main-menu .menu-item a {
+	font-size: 20px;
+	line-height: 26px;
+	padding: 0;
+	padding-top: 15px;
+	color: #010101;
+	box-shadow: none;
+	text-shadow: 1px 1px #ffc84d;
+}
+
+header .x-navbar .x-container nav.x-nav-wrap #menu-main-menu .menu-item a:hover {
+	text-decoration: none;
+	color: #fff;
+	box-shadow: none;
+	text-shadow: 1px 1px #b47f16;
+}
+
+header .x-navbar .x-container nav.x-nav-wrap #menu-main-menu .menu-item a span {
+	font-family: 'Oswald', sans-serif;
+	padding: 9px 18px 12px 20px;
+}
+
+header .x-navbar .x-container nav.x-nav-wrap #menu-main-menu .menu-item.current-menu-item a span {
+	color: #fff;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+	background: url('../images/nav-tail.jpg') repeat-x #eb090c;
+	text-shadow: 1px 1px #d02d31 !important;
+}
+
+/**
+ * Footer styling
+ */
+

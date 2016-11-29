@@ -1,0 +1,67 @@
+/**
+ * Header styling
+ */
+
+header {
+  .x-navbar {
+    background-color: #fefefe;
+    background-image: url('../images/header-tail.png');
+    background-repeat: repeat-x;
+    background-position: 0 0;
+
+    .x-container {
+      .x-brand {
+        margin-top: -30px;
+        margin-bottom: 15px;
+      }
+
+      nav.x-nav-wrap {
+        #menu-main-menu {
+          padding-top: 50px;
+
+          .menu-item {
+            a {
+              font-size: 20px;
+              line-height: 26px;
+              text-shadow: 1px 1px #ffc84d;
+              color: #010101;
+              box-shadow: none;
+              padding: 0;
+              padding-top: 15px;
+
+              &:hover {
+                color: #fff;
+                text-shadow: 1px 1px #b47f16;
+                text-decoration: none;
+                box-shadow: none;
+              }
+
+              span {
+                font-family: 'Oswald', sans-serif;
+                padding: 9px 18px 12px 20px;
+              }
+            }
+
+            &.current-menu-item {
+              a {
+                span {
+                  background: url('../images/nav-tail.jpg') repeat-x #eb090c;
+                  color: #fff;
+                  text-shadow: 1px 1px #d02d31 !important;
+                  border-radius: 9px;
+                  -moz-border-radius: 9px;
+                  -webkit-border-radius: 9px;                
+                }
+              }
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
