@@ -413,8 +413,6 @@ header .x-navbar .x-container nav.x-nav-wrap.mobile .menu-item span {
 	color: #f7941e;
 }
 
-/** What we have done - End Style**/
-
 @media only screen and (min-width: 1080px) {
 
 #home-sponsor .sponsor-col img {
@@ -432,6 +430,10 @@ header .x-navbar .x-container nav.x-nav-wrap.mobile .menu-item span {
 }
 
 @media only screen and (max-width: 979px) {
+
+header .x-logobar a {
+	margin-bottom: 36px;
+}
 
 header .x-navbar .x-container .x-btn-navbar {
 	box-shadow: none;
