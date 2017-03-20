@@ -3,13 +3,46 @@
  */
 
 header {
+  .x-logobar {
+    a{
+      float:left !important;
+      margin:24px 0 0 24px;
+    }
+  }
+  nav {
+      float: left !important;
+      margin:28px 0 36px 24px;
+      padding: 0 !important;
+  }
   .x-navbar {
-    background-color: #fefefe;
-    background-image: url('../images/header-tail.png');
+    background-color: #fe990d!important;
     background-repeat: repeat-x;
     background-position: 0 0;
+    
+    .desktop .x-nav a{
+      height:initial !important;;
+    }
 
     .x-container {
+      .x-btn-navbar{
+        @media only screen and (max-width: 979px){
+          box-shadow: none;
+        } 
+        
+      }
+      .x-btn-navbar.collapsed, .x-btn-navbar, .x-btn-navbar.collapsed:hover{
+        @media only screen and (max-width: 979px){
+          background-color:#fe9a0d !important;
+          font-size: 30px !important;
+        }
+      }
+      
+      .masthead-stacked .x-navbar {
+        @media only screen and (max-width: 979px){
+          text-align: right;
+        }
+      }
+
       .x-brand {
         margin-top: -30px;
         margin-bottom: 15px;
@@ -17,51 +50,59 @@ header {
 
       nav.x-nav-wrap {
         #menu-main-menu {
-          padding-top: 50px;
+          padding:0;
+
+          .menu-item a {
+            font-size: 20px;
+            line-height: 26px;
+            padding: 0;
+            padding-top: 15px;
+            color: #010101;
+            box-shadow: none;
+          }
 
           .menu-item {
-            a {
-              font-size: 20px;
-              line-height: 26px;
-              text-shadow: 1px 1px #ffc84d;
-              color: #010101;
+            a{
+              margin-right:10px;  
+            }
+            a:hover {
+              text-decoration: none;
+              color: #fff;
               box-shadow: none;
-              padding: 0;
-              padding-top: 15px;
-
-              &:hover {
-                color: #fff;
-                text-shadow: 1px 1px #b47f16;
-                text-decoration: none;
-                box-shadow: none;
-              }
-
-              span {
-                font-family: 'Oswald', sans-serif;
-                padding: 9px 18px 12px 20px;
-              }
             }
 
-            &.current-menu-item {
-              a {
-                span {
-                  background: url('../images/nav-tail.jpg') repeat-x #eb090c;
-                  color: #fff;
-                  text-shadow: 1px 1px #d02d31 !important;
-                  border-radius: 9px;
-                  -moz-border-radius: 9px;
-                  -webkit-border-radius: 9px;                
-                }
-              }
-
+            a span {
+              font-family: 'Oswald', sans-serif;
+              padding: 9px 18px 12px 20px;
+            }
+            &.current-menu-item a span {
+              color: #fff;
+              color: white;
+              -webkit-border-radius: 9px;
+              -moz-border-radius: 9px;
+              border-radius: 9px;
+              background: url('../images/nav-tail.jpg') repeat-x #eb090c;
             }
           }
+        }
+        &.desktop .menu-item span{
+          font-size: 22px;
+          font-weight: 800;
+          color: #754C29;
+          padding: 12px !important;
+          border-radius: 8px !important;
+          font-family: 'futur-vn-regular'!important;
+          letter-spacing: 0px;
+        }
+        &.mobile .menu-item span{
+          font-size: 15px;
+          font-weight: 800;
+          color: #754C29;
+          border-radius: 8px !important;
+          font-family: 'futur-vn-regular'!important;
+          letter-spacing: 0px;
         }
       }
     }
   }
 }
-
-
-
-

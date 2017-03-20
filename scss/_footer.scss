@@ -1,7 +1,62 @@
 /**
  * Footer styling
- */
+*/
 
-footer {
-  
+
+.x-logobar {
+    background-color: #fe990d !important;
+}
+
+.footer-img-1 img{
+  width: 158px !important;
+  height: 58px !important;
+  margin-top: -45px !important;
+  float: none;
+}
+
+.footer-img-2 img{
+  float: right;
+  margin-top: -200px;
+  opacity: 0.5;
+}
+
+.x-colophon.top, .x-colophon.bottom{
+  background-color: #754c29 !important;
+}
+
+.x-header-landmark { 
+  padding:0 !important;
+}
+
+
+.footer-text-1{
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 10px !important;
+  color: #BFBFBF;
+  float: none;
+}
+
+.footer-text-2{
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 14px !important;
+  color: #FFFFFF;
+  margin-top: 20px;
+  float: none;
+}
+
+.footer-text-3{
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 14px !important;
+  color: #F7941E;
+  margin-top: 20px;
+  float: none;
+}
+
+.footer-text-4{
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 14px !important;
+  color: #BFBFBF;
+  margin-top: 35px !important;
+  margin-bottom: -50px !important;
+  float: none;
 }

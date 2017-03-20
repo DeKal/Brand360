@@ -2,9 +2,7 @@
  * Please use Gulp and change any .scss files in Styles/scss
 =============================================================*/
 
-/**
- * Global variables
- */
+/*----------  Start of GLOBAL VARIABLE  ----------*/
 
 $mobile : 544px;
 $tablet : 768px;
@@ -13,33 +11,39 @@ $large-desktop: 1200px;
 $primary-color: #8d542a;
 $primary-hover-color: #7e4a23;
 
-@font-face {
-  font-family: 'gotham';
-  src: url('../fonts/Gotham-Book.otf');
-}
+/*----------  End of GLOBAL VARIABLE  ----------*/
 
 @font-face {
-  font-family: 'gotham-light';
-  src: url('../fonts/Gotham-Light.otf');
+  font-family: 'futur-vn-regular';
+  src: url('../fonts/FuturVN_0.ttf');
 }
-
 @font-face {
-  font-family: 'gotham-medium';
-  src: url('../fonts/Gotham-Medium.otf');
+  font-family: 'futur-vn-bold';
+  src: url('../fonts/FuturVNBol.ttf');
 }
-
-@import url(//fonts.googleapis.com/css?family=Oswald);
+@font-face {
+  font-family: 'futur-vn-light';
+  src: url('../fonts/FuturVNLig.ttf');
+}
+@font-face{
+  font-family: 'futur-vn-ext-bol';
+  src: url('../fonts/FuturVNExtBol.ttf');
+}
 
 *, body, input, button, select, textarea {
   outline: none;
-  font-family: 'gotham';
+  font-family: 'futur-vn-regular';
 }
 
 html {
+  overflow-y:hidden;
   margin: 0 !important;
   padding: 0 !important;
 }
 
-@import 'layout.scss';
 @import 'header.scss';
 @import 'footer.scss';
+@import 'layout.scss';
+
+
+

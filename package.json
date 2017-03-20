@@ -1,19 +1,19 @@
 {
-    "name": "gulpfile_generator",
-    "version": "1.1.0",
-    "description": "This is a genarator for gulpfile and package.json",
-    "author": "steelydylan",
-    "url": "http://horicdesign.com",
-    "license": "MIT License",
-    "keywords": "gulp",
-    "devDependencies":{
-        "gulp": "*",
-        "gulp-plumber": "*",
-        "gulp-sass": "*",
-        "gulp-autoprefixer": "*",
-        "es6-promise": "*",
-        "gulp-csscomb": "*",
-        "gulp-merge-media-queries": "*",
-        "gulp-concat": "*"
-    }
+  "name": "gulpfile_generator",
+  "version": "1.1.0",
+  "description": "This is a genarator for gulpfile and package.json",
+  "author": "steelydylan",
+  "url": "http://horicdesign.com",
+  "license": "MIT License",
+  "keywords": "gulp",
+  "devDependencies": {
+    "es6-promise": "^4.0.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-merge-media-queries": "^0.2.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0"
+  }
 }
