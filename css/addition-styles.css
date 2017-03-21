@@ -126,6 +126,10 @@ header .x-navbar .x-container nav.x-nav-wrap.mobile .menu-item span {
 	border-radius: 8px !important;
 }
 
+.shiftnav .current-menu-item .shiftnav-target {
+	background: #fe990d !important;
+}
+
 /**
  * Footer styling
 */
