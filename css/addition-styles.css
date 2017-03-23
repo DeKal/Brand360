@@ -42,6 +42,13 @@ html {
 	padding: 0 !important;
 }
 
+/* Image in Footer*/
+
+.img-footer img {
+	width: 158px;
+	height: 58px;
+}
+
 /**
  * Header styling
  */
