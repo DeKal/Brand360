@@ -43,231 +43,6 @@ html {
 }
 
 /**
- * Layout styling
- */
-
-.flex-center,
-#what-we-have-done-project .pt-cv-wrapper .pt-cv-content-item .pt-cv-ifield {
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-align: center;
-	align-items: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-}
-
-/** Home Style **/
-
-#home-slider {
-	margin-bottom: 48px;
-}
-
-#home-slider .slideshow_description_box {
-	padding-bottom: 12px;
-	background-color: rgba(53, 53, 53, .5);
-}
-
-#home-slider .slideshow_description_box .slideshow_title {
-	font-family: futur-vn-bold;
-	font-size: 32px;
-	padding-left: 24px;
-	text-align: left;
-	color: #fff;
-}
-
-#home-slider .slideshow_description_box .slideshow_description {
-	font-size: 18px;
-	padding-left: 24px;
-	text-align: left;
-	color: #fff;
-}
-
-#home-slider .slideshow_container_style-light .slideshow_transparent {
-	opacity: 1;
-}
-
-#home-slider .slideshow_pagination {
-	display: none !important;
-}
-
-#home-intro-text {
-	line-height: 38px !important;
-	margin: 0 24px 64px 24px !important;
-}
-
-#home-intro-text p1 {
-	font-family: 'futur-vn-regular';
-	font-size: 28px !important;
-	opacity: .87 !important;
-}
-
-#home-intro-text p2 {
-	font-family: 'futur-vn-regular' !important;
-	font-size: 32px !important;
-	opacity: .87 !important;
-	color: #fff !important;
-}
-
-#home-header-extended {
-	background: #fe990d; /* For browsers that do not support gradients */ /* For Safari 5.1 to 6.0 */ /* For Opera 11.1 to 12.0 */ /* For Firefox 3.6 to 15 */
-	background: linear-gradient(#fe990d, #ffc513); /* Standard syntax */
-}
-
-#service-area {
-	margin-top: -95px !important;
-}
-
-#service-area .service-text p {
-	font-size: 18px;
-	line-height: 20px;
-}
-
-#home-sponsor .h-custom-headline {
-	margin: -20px 0 12px 0 !important;
-}
-
-#home-sponsor .h-custom-headline span {
-	font-family: futur-vn-bold;
-}
-
-#home-sponsor .sponsor-col {
-	display: -ms-flexbox;
-	display: flex;
-	min-height: 125px !important;
-	-ms-flex-align: center;
-	align-items: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-}
-
-/** End - Home Style **/
-
-/*** Who we are Style **/
-
-/** End Who we are Style **/
-
-/** Contact page Style**/
-
-.g-recaptcha iframe {
-	width: 100%;
-	max-width: none;
-	height: 100px !important;
-	border: none;
-}
-
-.x-container.offset {
-	margin-top: 48px !important;
-}
-
-.headline {
-	font-family: futur-vn-bold;
-	font-size: 24px;
-	margin-bottom: 24px;
-	color: #f7941e;
-}
-
-#map {
-	max-width: 95%;
-	margin-bottom: 24px;
-	padding: 6px;
-	border-width: 0;
-	border-style: solid;
-	box-shadow: 0 0 12px rgba(0, 0, 0, .25);
-}
-
-#address {
-	font-size: 16px;
-	margin-bottom: 36px;
-	color: #000;
-}
-
-#website {
-	font-size: 16px;
-	margin-bottom: 40px;
-	color: #f7941e;
-}
-
-#contact-us .x-column {
-	padding-right: 25px !important;
-}
-
-.wpforms-field-label {
-	font-size: 14px;
-	color: #754c29;
-}
-
-.wpforms-field-medium {
-	width: 100%;
-	height: 36px;
-	margin-bottom: 2px;
-}
-
-.message #wpforms-255-field_2 {
-	height: 170px;
-	margin-bottom: 20px !important;
-}
-
-.wpforms-submit-container {
-	float: left;
-}
-
-.wpforms-submit {
-	margin-top: 12px;
-	padding: 12px;
-	color: #000 !important;
-	border-color: #fff !important;
-	border-radius: 12px !important;
-	background-color: #e5e4e2 !important;
-}
-
-.contact_form .wpforms-error {
-	font-size: 12px;
-	color: #eb090c;
-}
-
-#wpform-field-hp {
-	display: none;
-}
-
-/** End- Contact page style **/
-
-/** What we have done Style**/
-
-#what-we-have-done-project .pt-cv-wrapper .pt-cv-content-item {
-	width: 31%;
-	margin: 0 15px 15px 0;
-	padding: 0;
-}
-
-#what-we-have-done-project .pt-cv-wrapper .pt-cv-content-item .pt-cv-ifield a {
-	margin-bottom: 0;
-}
-
-#what-we-have-done-project .pt-cv-wrapper .pt-cv-content-item .pt-cv-ifield a img {
-	margin-bottom: 0 !important;
-}
-
-#what-we-have-done-project .pt-cv-wrapper .pt-cv-content-item .pt-cv-ifield:hover .pt-cv-title {
-	display: block;
-	background-color: rgba(0, 0, 0, .7);
-}
-
-#what-we-have-done-project .pt-cv-wrapper .pt-cv-content-item .pt-cv-ifield .pt-cv-title {
-	position: absolute;
-	display: none;
-	width: 100%;
-	padding-top: 100%;
-	padding-bottom: 100%;
-	text-align: center;
-}
-
-#what-we-have-done-project .pt-cv-wrapper .pt-cv-content-item .pt-cv-ifield .pt-cv-title a {
-	font-family: futur-vn-bold;
-	font-size: 22px;
-	color: #f7941e;
-}
-
-/**
  * Header styling
  */
 
@@ -418,6 +193,7 @@ header .x-navbar .x-container nav.x-nav-wrap.mobile .menu-item span {
  */
 
 .flex-center,
+.x-nav-tabs-item,
 #what-we-have-done-project .pt-cv-wrapper .pt-cv-content-item .pt-cv-ifield {
 	display: -ms-flexbox;
 	display: flex;
@@ -515,7 +291,115 @@ header .x-navbar .x-container nav.x-nav-wrap.mobile .menu-item span {
 
 /*** Who we are Style **/
 
+.who-we-are .x-container.max.width.offset {
+	width: 100%;
+	max-width: none !important;
+	margin: 0 !important;
+	background-color: #f7f7f7;
+}
+
+.who-we-are #sth-about-us {
+	margin: 0 auto !important;
+	margin-top: 128px !important;
+	margin-bottom: 128px !important;
+}
+
+.who-we-are #sth-about-us > div {
+	max-width: 940px;
+}
+
+.who-we-are #philosophy,
+.who-we-are #why-we-are-different {
+	padding: 128px 5% !important;
+	background-color: white !important;
+	box-shadow: rgba(0, 0, 0, .3) 0 0 12px;
+}
+
+.who-we-are #philosophy > div,
+.who-we-are #why-we-are-different > div {
+	max-width: 940px;
+}
+
+.who-we-are #why-we-are-different {
+	box-shadow: none;
+}
+
+.who-we-are #why-we-are-different .partner {
+	padding-right: 24px !important;
+}
+
+.who-we-are #why-we-are-different .team {
+	padding-left: 24px !important;
+}
+
+.who-we-are #our-people .x-tab-content {
+	margin: 0;
+	pointer-events: none;
+}
+
+.who-we-are #our-people .x-nav-tabs,
+.who-we-are #our-people .heading-1 {
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+.who-we-are #our-people .x-nav-tabs {
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: -90px;
+}
+
+.who-we-are #our-people .x-nav-tabs.top > li a {
+	width: 180px;
+	height: 180px;
+	transition: -webkit-filter .2s linear;
+	transition: filter .2s linear;
+	transition: filter .2s linear, -webkit-filter .2s linear;
+	border: 0 !important;
+	border-radius: 50%;
+	box-shadow: rgba(0, 0, 0, .3) 0 3px 6px;
+}
+
+.who-we-are #our-people .x-tab-pane {
+	padding-bottom: 128px;
+	background-color: #f2de57;
+}
+
+.who-we-are #our-people .x-tab-pane .name,
+.who-we-are #our-people .x-tab-pane .role,
+.who-we-are #our-people .x-tab-pane .description {
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+.who-we-are #our-people .x-tab-pane .name {
+	margin-top: 64px;
+	margin-bottom: 10px;
+}
+
+.who-we-are #our-people .x-tab-pane .role {
+	margin-bottom: 20px;
+}
+
+.heading-1 {
+	font-family: futur-vn-bold !important;
+	font-size: 30px;
+	font-weight: bold;
+	color: #f7941e;
+}
+
+.heading-2 {
+	font-size: 30px;
+	margin-top: 1.5%;
+	color: #000;
+}
+
 /** End Who we are Style **/
+
+.x-nav-tabs-item.active a {
+	-webkit-filter: none !important;
+	filter: none !important;
+}
 
 /** Contact page Style**/
 
@@ -630,6 +514,7 @@ header .x-navbar .x-container nav.x-nav-wrap.mobile .menu-item span {
 	padding-top: 100%;
 	padding-bottom: 100%;
 	text-align: center;
+	pointer-events: none;
 }
 
 #what-we-have-done-project .pt-cv-wrapper .pt-cv-content-item .pt-cv-ifield .pt-cv-title a {
@@ -638,11 +523,22 @@ header .x-navbar .x-container nav.x-nav-wrap.mobile .menu-item span {
 	color: #f7941e;
 }
 
-@media only screen and (min-width: 1080px) {
+/** End- What we have done **/
 
-#home-sponsor .sponsor-col img {
-	position: relative !important;
+/** Our Services - style **/
+
+.service-text p {
+	font-size: 16px;
+	line-height: 20px;
 }
+
+.our-services .background-padding-fix {
+	background-size: cover !important;
+}
+
+/** End -  Our Services style **/
+
+@media only screen and (min-width: 1080px) {
 
 #home-sponsor .sponsor-col img {
 	position: relative !important;
@@ -656,17 +552,9 @@ header .x-navbar .x-container nav.x-nav-wrap.mobile .menu-item span {
 	width: 47%;
 }
 
-#what-we-have-done-project .pt-cv-wrapper .pt-cv-content-item {
-	width: 47%;
-}
-
 }
 
 @media only screen and (max-width: 979px) {
-
-a:hover {
-	text-decoration: initial;
-}
 
 header .x-logobar a {
 	margin-bottom: 36px;
@@ -687,6 +575,15 @@ header .x-navbar .x-container .masthead-stacked .x-navbar {
 	text-align: right;
 }
 
+.who-we-are #our-people .x-nav-tabs {
+	margin-bottom: -65px;
+}
+
+.who-we-are #our-people .x-nav-tabs.top > li a {
+	width: 130px;
+	height: 130px;
+}
+
 a:hover {
 	text-decoration: initial;
 }
@@ -694,15 +591,6 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
-
-#home-sponsor .sponsor-col {
-	width: 100%;
-	height: 200px;
-}
-
-#home-sponsor .cs-empty-column {
-	display: none;
-}
 
 #home-sponsor .sponsor-col {
 	width: 100%;
@@ -747,8 +635,36 @@ a:hover {
 	line-height: 10px !important;
 }
 
-.who-we-are-title {
+.who-we-are #why-we-are-different .partner {
+	padding-right: 0 !important;
+}
+
+.who-we-are #why-we-are-different .team {
+	padding-left: 0 !important;
+}
+
+.who-we-are #our-people .x-nav-tabs {
+	margin-bottom: -50px;
+}
+
+.who-we-are #our-people .x-nav-tabs.top > li a {
+	width: 100px;
+	height: 100px;
+}
+
+.philosophy {
 	text-align: center !important;
+}
+
+.heading-1 {
+	font-size: 25px;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+
+.heading-2 {
+	font-size: 25px;
+	line-height: 30px;
 }
 
 .our-people-name {
@@ -765,52 +681,9 @@ a:hover {
 	bottom: -5%;
 }
 
-#home-slider {
-	margin-bottom: 38px;
-}
-
-#home-slider .slideshow_description_box .slideshow_title {
-	font-size: 26px;
-}
-
-#home-slider .slideshow_description_box .slideshow_description {
-	font-size: 16px;
-}
-
-#home-slider .slideshow_container,
-#home-slider .slideshow_content,
-#home-slider .slideshow_view,
-#home-slider .slideshow_slide,
-#home-slider .slideshow_slide img {
-	height: 300px !important;
-}
-
-#home-intro-text p1 {
-	font-size: 24px !important;
-	line-height: 10px !important;
-}
-
-#home-intro-text p2 {
-	font-size: 28px !important;
-	line-height: 10px !important;
-}
-
-.who-we-are-title {
-	text-align: center !important;
-}
-
-.our-people-name {
-	margin-top: -3% !important;
-}
-
-.our-people-role {
-	margin-top: -1%  !important;
-	margin-bottom: 1%;
-}
-
-#website {
-	position: absolute;
-	bottom: -5%;
+.our-services .x-section .x-container.marginless-columns .x-column[class*='x-'] {
+	width: 50% !important;
+	margin: 0 auto;
 }
 
 }
@@ -821,8 +694,13 @@ a:hover {
 	width: 46%;
 }
 
-#what-we-have-done-project .pt-cv-wrapper .pt-cv-content-item {
-	width: 46%;
+}
+
+@media only screen and (max-width: 500px) {
+
+.our-services .x-section .x-container.marginless-columns .x-column[class*='x-'] {
+	width: 75% !important;
+	margin: 0 auto;
 }
 
 }
@@ -859,34 +737,13 @@ a:hover {
 	line-height: 5px !important;
 }
 
-#home-slider {
-	margin-bottom: 28px;
+.who-we-are #our-people .x-nav-tabs {
+	margin-bottom: -30px;
 }
 
-#home-slider .slideshow_description_box .slideshow_title {
-	font-size: 20px;
-}
-
-#home-slider .slideshow_description_box .slideshow_description {
-	font-size: 14px;
-}
-
-#home-slider .slideshow_container,
-#home-slider .slideshow_content,
-#home-slider .slideshow_view,
-#home-slider .slideshow_slide,
-#home-slider .slideshow_slide img {
-	height: 175px !important;
-}
-
-#home-intro-text p1 {
-	font-size: 20px !important;
-	line-height: 5px !important;
-}
-
-#home-intro-text p2 {
-	font-size: 24px !important;
-	line-height: 5px !important;
+.who-we-are #our-people .x-nav-tabs.top > li a {
+	width: 60px;
+	height: 60px;
 }
 
 }
@@ -897,17 +754,17 @@ a:hover {
 	width: 100%;
 }
 
-#what-we-have-done-project .pt-cv-wrapper .pt-cv-content-item {
-	width: 100%;
+}
+
+@media only screen and (max-width: 350px) {
+
+header .x-logobar .x-brand img {
+	width: 200px;
 }
 
 }
 
 @media only screen and (max-width: 300px) {
-
-#home-slider {
-	margin-bottom: 18px;
-}
 
 #home-slider {
 	margin-bottom: 18px;

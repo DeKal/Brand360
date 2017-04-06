@@ -120,8 +120,9 @@
   .service-text p{
     font-size: 18px; 
     line-height: 20px;
-  }
+  }  
 }
+
 #home-sponsor{
   .h-custom-headline{
     margin:-20px 0 12px 0 !important;
@@ -154,10 +155,139 @@
 }
 /** End - Home Style **/
 /*** Who we are Style **/
+.who-we-are{
 
-.who-we-are-title{
+  .x-container.max.width.offset {
+      max-width: none!important;
+      width: 100%;
+      background-color: #f7f7f7;
+      margin: 0px !important;
+  }
+  #sth-about-us{
+    margin: 0 auto !important;
+    margin-top: 128px !important;
+    margin-bottom:128px !important;
+    > div{
+      max-width: 940px;
+    }
+  }
+  #philosophy{
+    background-color: white !important;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 12px;
+    padding: 128px 5% !important;
+
+     > div{
+      max-width: 940px;
+    }
+  }
+  #why-we-are-different{
+    @extend #philosophy;
+  }
+  #why-we-are-different{
+    box-shadow: none;
+    .partner{
+      padding-right: 24px !important;
+      @media only screen and (max-width: 767px){
+         padding-right: 0px !important;
+      }
+    }
+    .team{
+      padding-left: 24px !important;
+      @media only screen and (max-width: 767px){
+         padding-left: 0px !important;
+      }
+    }
+  }
+  #our-people{
+    .x-tab-content{
+      margin: 0;
+      pointer-events: none;
+    }
+    .x-nav-tabs, .heading-1{
+      max-width: 940px;
+      margin: 0 auto;
+    }
+    .x-nav-tabs{
+      display: flex;
+      margin-bottom: -90px; 
+
+      @media only screen and (max-width: 979px){
+        margin-bottom: -65px;
+      }
+      @media only screen and (max-width: 767px){
+        margin-bottom: -50px;
+      }
+      @media only screen and (max-width: 468px){
+        margin-bottom: -30px;
+      }
+
+      &.top > li a{
+        border: 0 !important;
+        transition: filter 0.2s linear;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 6px;
+        border-radius: 50%;
+        width: 180px;
+        height: 180px;
+        @media only screen and (max-width: 979px){
+          width: 130px;
+          height: 130px;
+        }
+        @media only screen and (max-width: 767px){
+          width: 100px;
+          height: 100px;
+        }
+        @media only screen and (max-width: 468px){
+          width: 60px;
+          height: 60px;
+        }
+      }
+    }
+
+    .x-tab-pane{
+      background-color: #f2de57;
+      padding-bottom: 128px;
+
+      .name, .role, .description{
+          max-width: 940px;
+          margin: 0 auto;
+       }
+      .name{
+        margin-top: 64px;
+        margin-bottom: 10px;
+       }
+      .role{
+        margin-bottom: 20px;
+      }
+    }
+    
+  }
+
+  
+}
+.philosophy{
   @media only screen and (max-width: 767px){
     text-align: center!important;
+  }
+}
+
+.heading-1{
+  font-family: futur-vn-bold !important;
+  color: #F7941E;
+  font-size: 30px;
+  font-weight: bold;
+  @media only screen and (max-width: 767px){
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom:10px;
+  }
+}
+.heading-2{
+  color: #000000; 
+  font-size: 30px;
+  margin-top: 1.5%;
+  @media only screen and (max-width: 767px){
+    font-size: 25px;
+    line-height: 30px;
   }
 }
 .our-people-name{
@@ -177,6 +307,13 @@ a:hover {
       text-decoration:initial;
   }
 }
+.x-nav-tabs-item{
+  @extend .flex-center;
+  &.active a{
+      filter: none !important;
+  }
+}
+
 /** Contact page Style**/
 
 
@@ -310,7 +447,7 @@ a:hover {
           padding-bottom: 100%;
           width: 100%;
           text-align: center;
-
+          pointer-events: none;
           a{
             font-family: futur-vn-bold;
             color: #F7941E;
@@ -323,3 +460,25 @@ a:hover {
   
   }
 }
+/** End- What we have done **/
+/** Our Services - style **/
+.service-text p{
+    font-size: 16px; 
+    line-height: 20px;
+}  
+.our-services{
+  .x-section .x-container.marginless-columns .x-column[class*="x-"]{
+    @media only screen and (max-width: 767px){
+      width: 50% !important;
+      margin: 0 auto;
+    }
+    @media only screen and (max-width: 500px){
+      width: 75% !important;
+      margin: 0 auto;
+    }
+  }
+  .background-padding-fix{
+    background-size: cover !important;
+  }
+}
+/** End -  Our Services style **/

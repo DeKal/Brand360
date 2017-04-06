@@ -12,6 +12,13 @@ header {
           margin-bottom: 36px;
       } 
     }
+    .x-brand{
+      img{
+        @media only screen and (max-width: 350px){
+          width: 200px;
+        } 
+      }
+    }
   }
   nav {
       float: left !important;
