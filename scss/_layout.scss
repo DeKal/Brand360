@@ -24,7 +24,7 @@
     background-color: rgba(53,53,53,0.5);
     padding-bottom: 12px;
 
-    .slideshow_title{
+    .slideshow_title, .slideshow_title a{
       text-align: left;
       font-size: 32px;
       color: #FFFFFF;
@@ -38,7 +38,7 @@
         font-size: 20px;
       }
     }
-    .slideshow_description{
+    .slideshow_description, .slideshow_description a{
       text-align: left;
       font-size: 18px;
       color: #FFFFFF;
@@ -244,7 +244,7 @@
     }
 
     .x-tab-pane{
-      background-color: #f2de57;
+      background-color: #f7f7f7;
       padding-bottom: 128px;
 
       .name, .role, .description{
@@ -463,7 +463,7 @@ a:hover {
 /** End- What we have done **/
 /** Our Services - style **/
 .service-text p{
-    font-size: 16px; 
+    font-size: 15px; 
     line-height: 20px;
 }  
 .our-services{
