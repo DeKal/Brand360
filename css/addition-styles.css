@@ -214,7 +214,8 @@ header .x-navbar .x-container nav.x-nav-wrap.mobile .menu-item span {
 	background-color: rgba(53, 53, 53, .5);
 }
 
-#home-slider .slideshow_description_box .slideshow_title {
+#home-slider .slideshow_description_box .slideshow_title,
+#home-slider .slideshow_description_box .slideshow_title a {
 	font-family: futur-vn-bold;
 	font-size: 32px;
 	padding-left: 24px;
@@ -222,7 +223,8 @@ header .x-navbar .x-container nav.x-nav-wrap.mobile .menu-item span {
 	color: #fff;
 }
 
-#home-slider .slideshow_description_box .slideshow_description {
+#home-slider .slideshow_description_box .slideshow_description,
+#home-slider .slideshow_description_box .slideshow_description a {
 	font-size: 18px;
 	padding-left: 24px;
 	text-align: left;
@@ -362,7 +364,7 @@ header .x-navbar .x-container nav.x-nav-wrap.mobile .menu-item span {
 
 .who-we-are #our-people .x-tab-pane {
 	padding-bottom: 128px;
-	background-color: #f2de57;
+	background-color: #f7f7f7;
 }
 
 .who-we-are #our-people .x-tab-pane .name,
@@ -528,7 +530,7 @@ header .x-navbar .x-container nav.x-nav-wrap.mobile .menu-item span {
 /** Our Services - style **/
 
 .service-text p {
-	font-size: 16px;
+	font-size: 15px;
 	line-height: 20px;
 }
 
@@ -609,11 +611,13 @@ a:hover {
 	margin-bottom: 38px;
 }
 
-#home-slider .slideshow_description_box .slideshow_title {
+#home-slider .slideshow_description_box .slideshow_title,
+#home-slider .slideshow_description_box .slideshow_title a {
 	font-size: 26px;
 }
 
-#home-slider .slideshow_description_box .slideshow_description {
+#home-slider .slideshow_description_box .slideshow_description,
+#home-slider .slideshow_description_box .slideshow_description a {
 	font-size: 16px;
 }
 
@@ -711,11 +715,13 @@ a:hover {
 	margin-bottom: 28px;
 }
 
-#home-slider .slideshow_description_box .slideshow_title {
+#home-slider .slideshow_description_box .slideshow_title,
+#home-slider .slideshow_description_box .slideshow_title a {
 	font-size: 20px;
 }
 
-#home-slider .slideshow_description_box .slideshow_description {
+#home-slider .slideshow_description_box .slideshow_description,
+#home-slider .slideshow_description_box .slideshow_description a {
 	font-size: 14px;
 }
 
